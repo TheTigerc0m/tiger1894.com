@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<title>Simple web Development Template</title>
+
+	<style>
+
+div.background {
+  background: url(klematis.jpg) repeat;
+  border: 2px solid black;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+}
+
+div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #f5efef;
+}
+
+		* {
+			margin: 0;
+			padding: 0;
+		}
+
+		.navbar {
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			position: sticky;
+			top: 0;
+			cursor: pointer;
+		}
+
+		.background {
+			background: black;
+			background-blend-mode: darken;
+			background-size: cover;
+		}
+
+		.nav-list {
+			width: 70%;
+			display: flex;
+			align-items: center;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+		}
+
+		.logo img {
+			width: 180px;
+			border-radius: 50px;
+		}
+
+		.nav-list li {
+			list-style: none;
+			padding: 26px 30px;
+		}
+
+		.nav-list li a {
+			text-decoration: none;
+			color: white;
+		}
+
+		.nav-list li a:hover {
+			color: grey;
+		}
+
+		.rightnav {
+			width: 30%;
+			text-align: right;
+		}
+
+		#search {
+			padding: 5px;
+			font-size: 17px;
+			border: 2px solid grey;
+			border-radius: 9px;
+		}
+
+		 
+
+		 
+		.box-main {
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			color: rgb(238, 234, 234);
+			max-width: 80%;
+			margin: auto;
+			height: 80%;
+		}
+
+		.firsthalf {
+			width: 100%;
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+		}
+
+		.secondhalf {
+			width: 30%;
+		}
+
+		.secondhalf img {
+			width: 70%;
+			border: 4px solid white;
+			border-radius: 150px;
+			display: block;
+			margin: auto;
+		}
+
+		.text-big {
+			font-family: 'Piazzolla', serif;
+			font-weight: bold;
+			font-size: 35px;
+		}
+
+		.text-small {
+            color: #ffffff;
+			font-size: 18px;
+		}
+
+		.btn {
+			padding: 8px 20px;
+			margin: 7px 0;
+			border: 2px solid white;
+			border-radius: 8px;
+			background: none;
+			color: white;
+			cursor: pointer;
+		}
+
+		.btn-sm {
+			padding: 6px 10px;
+			vertical-align: middle;
+		}
+
+		.section {
+			height: 400px;
+			display: flex;
+			align-items: center;
+			justify-content: center;
+			max-width: 90%;
+			margin: auto;
+		}
+
+		.section-Left {
+			flex-direction: row-reverse;
+		}
+
+		.paras {
+			padding: 0px 65px;
+		}
+
+		.thumbnail img {
+			width: 250px;
+			border: 2px solid black;
+			border-radius: 26px;
+			margin-top: 19px;
+		}
+
+		.center {
+			text-align: center;
+		}
+
+		.text-footer {
+			text-align: center;
+			padding: 30px 0;
+			font-family: 'Ubuntu', sans-serif;
+			display: flex;
+			justify-content: center;
+			color: white;
+		}
+        .section
+        {
+ background-image: url(https://wallpaperaccess.com/full/5508689.jpg); 
+ opacity: 0.8;   
+             
+        }
+	</style>
+</head>
+
+<body>
+   
+      <img src="https://w0.peakpx.com/wallpaper/918/557/HD-wallpaper-cinderella-princess-disney-cartoon-prince-charming.jpg" alt="" width="100%" height="600">
+
+ 	<nav class="navbar background">
+		<ul class="nav-list">
+			<div class="logo">
+				<img src= "logo.png">
+			</div>
+			<li><a href="#story1">1. The Princess And The Pea
+            </a></li>
+			<li><a href="#story2">2. The Princess And The Faithful Knight
+            </a></li>
+			<li><a href="#story3">3. Snow White
+            </a></li>
+		</ul>
+
+		<div class="rightNav">
+			<input type="text" name="search" id="search">
+			<button class="btn btn-sm">Search</button>
+		</div>
+	</nav>
+
+    <section class="section">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="story1" >1. The Princess And The Pea</h1>
+ 
+ 
+ 				<p class="text-small" >
+
+					A prince is in the search of a princess to marry. But whenever he meets one, something goes wrong and he fails to find a suitable alliance. One evening, there is a thunderstorm and a young lady, who is fully drenched, knocks on the castle door. She seeks shelter in the prince’s castle.
+
+The young lady claims to be a princess and requests the king and the queen to allow her to spend the night in the castle. As her appearance is distressed and worn out, nobody believes her.
+
+Unwillingly, the queen allows the young lady to rest in their castle. But to test if the young lady is a real princess, the queen decides to place a pea under the mattress of the guest bed. The young lady is offered a bed, which is covered with 20 huge mattresses with a pea at the bottom.
+
+Next morning, the queen asks their guest if she slept well. The young lady narrates how sleepless her night went as something very hard under the mattress kept her awake all night.
+
+The prince is overjoyed as he has found a true princess. Only a real princess would experience such pain in spite of having 20 feather mattresses placed on top of the pea. The prince and the princess get married and live happily ever after.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+
+	<section class="section">
+		<div class="box-main">
+			<div class="firstHalf">
+				<h1 class="text-big" id="program">
+                    2. The Princess And The Faithful Knight
+				</h1>
+				<p class="text-small">
+					Long long ago, there lived a beautiful princess who was praised by everyone for her beauty. She was also a kind-hearted young girl and was raised to be a fair and a just ruler.
+
+One bright sunny day, a prince arrives at her palace, meets her and eventually, they fell in love. One night, the prince takes the princess to a shady grassland at the edge of the woods. He says if the princess truly loves him, she must pick a rare flower called the scarlet rose for him. She tries hard to find the flower as she wants to prove her love for the prince. Finally, she finds the scarlet rose. But as soon as the princess touches the flower, she falls asleep.
+
+The cunning prince steals all the jewelry and riches of the princess and leaves her alone in the deep woods. The king gets worried about his daughter and sends his army to find the princess. The soldiers return disappointed.
+
+Many months later, the princess is found lying unconscious in the deep meadow. She is taken back to the castle. The advisors discover that the princess touched a scarlet rose, and cannot be woken up. Therefore, they suggest the king let the venom run its course.
+
+The king declares that anyone who is desirous of marrying the princess must prove their faithfulness by waiting by her bedside until she awakens. Many suitors turn up hoping to marry the beautiful princess when she wakes up.
+
+But time passes by and the weary men leave one after the other. But one hopeful knight truly waits beside the princesses for her to wake up.
+
+One fine day, the princess wakes up and finds the knight kneeling. He narrates the entire story of her falling asleep. The princess is moved to tears and the king is overjoyed. The king announces the wedding and a grand celebration takes place in the kingdom.
+				</p>
+
+
+			</div>
+		</div>
+	</section>
+ 	 
+
+	<footer class="background">
+		<p class="text-footer">
+          @Tiger.com
+        </p>
+
+
+	</footer>
+</body>
+
+</html>
